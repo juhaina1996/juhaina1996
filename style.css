@@ -1,0 +1,134 @@
+body{
+  background-color: #dadbf1;
+  text-align: center;
+  font-family:"GT America Standard", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.search-box{
+font-size: 30px;
+}
+.buttonleft{
+  margin: 0;
+  display: flex;
+
+}
+.top-bar{
+width: 100%;
+height: 80px;
+background-color: black;
+display: flex;
+justify-content: space-between;
+
+}
+input.submit{
+  background-color:rgb(27, 26, 26);
+  border-radius: 5px;
+  border: solid;
+  width: 70%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-width: 1px;
+  border-color:white;
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+  
+}
+input.signin {
+  background-color: rgb(74, 74, 245);
+  border: solid;
+  border-radius: 5px; 
+  border-color: rgb(74, 74, 245);
+  color: white;
+  padding: 5px 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+  font-size: 20px;
+  margin-right: 30px;
+  float: right;
+}
+
+#queries{
+  border: none;
+  width:50%;
+  height: 50px;
+}
+.c-left{
+  margin:0;
+  display: flex;
+  justify-content: space-between;
+}
+.abstractimage{
+height: 50px;
+width: 50%;
+margin-top: 15px;
+}
+.help{
+height: 50px;
+width: 50%;
+margin-top: 25px;
+font-size: 25px;
+color: white;
+}
+.vertical {
+  margin:0;
+  border-left: 6px solid black;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 10px;;
+  position:relative;
+  border-width: 2px;
+  left: 0%;
+  border-color:white;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.arrow-svg{
+  fill: #000000;
+  transform: translateY(-50%);
+  position: absolute;
+  right:27%;
+  top: 45%;
+  bottom: -5px;
+  width: 28px;
+  z-index: 100;
+  transition: all .3s;
+}
+
+::placeholder{
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 23px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.arrow-svg:hover{
+  fill:rgb(245, 74, 111);
+}
+.grid-container{
+  display:grid;
+  grid-template-columns: auto auto;
+  margin-top: 170px;
+}
+.grid1{
+  grid-column: 1 / span 3;
+  box-sizing: border-box;
+  float: left;
+}
